@@ -3,3 +3,4 @@
 	$user = "root";
 	$pwd = "mysql";
 	$db = "iNOS";
+	echo "Hello world";
