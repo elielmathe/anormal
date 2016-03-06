@@ -1,5 +1,5 @@
 <?php
-	lancerEcoute("127.0.0.1", 2022);
+	lancerEcoute("server-voteceni.rhcloud.com", 2022);
 	function lancerEcoute($adresse,$port){
 		$connexion = stream_socket_server("tcp://".$adresse.":".$port);
 		while($socket = stream_socket_accept($connexion)){
